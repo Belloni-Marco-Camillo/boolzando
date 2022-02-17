@@ -12,9 +12,9 @@ body{
     position: relative;
     max-width: 350px;
     max-height: 505px;
-    display: inline-block;
     margin-right: 50px;
     text-align: center;
+    display: inline-block;
 }
 
 .card>img{
@@ -55,4 +55,18 @@ body{
     width: 30px;
     background-color: brown;
     padding: 10px 15px 10px 15px;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 350px;
+    max-height: 505px;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.card:hover .img-hover{
+    visibility: visible;
 }
