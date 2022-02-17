@@ -1,0 +1,58 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.contain{
+    width: 80%;
+    margin: 150px auto;
+}
+
+.card{
+    position: relative;
+    max-width: 350px;
+    max-height: 505px;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.card>img{
+    width: 100%;
+}
+
+.tiket{
+    position:absolute;
+    bottom: 20px;
+    left: 0;
+    display:inline-block;
+}
+
+.discount{
+    padding: 2px 5px 2px 2px;
+    background-color: crimson;
+    color: white;
+}
+
+.caratteristica{
+    left: 45px;
+    padding: 2px 5px 2px 5px;
+    background-color: green;
+    color: white;
+}
+
+.like{
+    color: white;
+    font-size: 25px;
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    display:inline-block;
+    z-index: 1;
+}
+
+.like-contain{
+    width: 30px;
+    background-color: brown;
+    padding: 10px 15px 10px 15px;
+}
