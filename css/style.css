@@ -3,22 +3,28 @@ body{
    padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .contain{
     width: 80%;
     margin: 150px auto;
+    padding: 0 auto;
 }
 
 .card{
     position: relative;
-    max-width: 350px;
-    max-height: 505px;
-    margin-right: 50px;
+    width: 30%;
+    margin-right: 4%;
     text-align: center;
     display: inline-block;
+    
 }
 
 .card>img{
     width: 100%;
+    display: inline-block;
 }
 
 .tiket{
@@ -61,12 +67,15 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 350px;
-    max-height: 505px;
+    width: 100%;
     z-index: 2;
     visibility: hidden;
 }
 
 .card:hover .img-hover{
     visibility: visible;
+}
+
+.contain>.card:nth-child(3){
+    margin-right: 0;
 }
