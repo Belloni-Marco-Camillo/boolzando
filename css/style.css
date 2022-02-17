@@ -9,7 +9,7 @@ img {
 
 .contain{
     width: 80%;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 0 auto;
 }
 
@@ -17,9 +17,7 @@ img {
     position: relative;
     width: 30%;
     margin-right: 4%;
-    text-align: center;
     display: inline-block;
-    
 }
 
 .card>img{
@@ -29,7 +27,7 @@ img {
 
 .tiket{
     position:absolute;
-    bottom: 20px;
+    bottom: 120px;
     left: 0;
     display:inline-block;
 }
@@ -78,4 +76,17 @@ img {
 
 .contain>.card:nth-child(3){
     margin-right: 0;
+}
+
+.new-price{
+    color: crimson;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.bold-maiusc{
+    font-weight: bold;
+    text-transform:uppercase;
 }
